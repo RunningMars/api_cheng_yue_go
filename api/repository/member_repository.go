@@ -142,6 +142,8 @@ func SaveMember(member model.Member) error {
 	// 根据 `struct` 更新属性，只会更新非零值的字段
 	db.DB.Model(&member).Updates(member)
 
+	db.DB.Model(&member.MemberRequest).Updates(member.MemberRequest)
+
 	return nil
 }
 

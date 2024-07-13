@@ -3,7 +3,7 @@ package model
 import "time"
 
 type MemberRequest struct {
-	ID                         uint       `json:"id"`
+	ID                         uint      `json:"id"`
 	MemberId                   uint      `json:"memberId"`
 	AgeMinRequest              int       `json:"ageMinRequest"`
 	AgeMaxRequest              int       `json:"ageMaxRequest"`
