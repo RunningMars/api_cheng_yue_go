@@ -1,0 +1,12 @@
+mysql:
+  host: "127.0.0.1"
+  port: "3306"
+  user: "xxx"
+  password: "xxx"
+  dbname: "xxx"
+
+oss:
+  endpoint: "https://oss-cn-chengdu.aliyuncs.com"
+  access_key_id: "xxx"
+  access_key_secret: "xxx"
+  bucket_name: "cheng-yue"
